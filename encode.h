@@ -41,11 +41,11 @@ string int_to_binary(int num) {
 
 int open_file(FILE* input){
 	if (input == NULL) {
-		cout << "File did not open successfully, please check " << endl;
+		cout << "Files  did not opened successfully, please check again" << endl;
 		return -1;
 	}
 	else {
-		cout << "File opened successfully!" << endl;
+		cout << "Files are opened successfully!" << endl;
         return 0;
 	}
 }
