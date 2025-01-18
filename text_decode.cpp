@@ -19,12 +19,7 @@ struct Tree_node
 	char data;
 	Tree_node* left;
 	Tree_node* right;
-	Tree_node(char data) {
-		this->left = NULL;
-		this->right = NULL;
-		this->data = data;
-	}
-
+	Tree_node(char data) : left(nullptr), right(nullptr), data(data) {}
 };
 
 unsigned int read_header(FILE* fr) {
@@ -33,7 +28,6 @@ unsigned int read_header(FILE* fr) {
 	fread(&buffer,sizeof(buffer),1,fr);
 	return buffer;
 }
-
 
 Tree_node* rebuild_huffman_tree(FILE* fr) {
 	// we will use a stack to rebuild our huffman tree
