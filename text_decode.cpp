@@ -10,6 +10,8 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stack>
 using namespace std;
+// Comment 1: This struct represents a node in the Huffman tree used for decoding
+// Comment 2: Each node contains a character, and pointers to left and right child nodes
 
 struct Tree_node 
 //tree node for rebuilding huffman tree
