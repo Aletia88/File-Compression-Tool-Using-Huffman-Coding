@@ -1,0 +1,12 @@
+Data Compression:
+Data compression refers to the process of reducing the size of data to save space or transmission time. The goal is to represent the data in a more compact form while maintaining its integrity. Compression techniques can be broadly categorized into two types:
+
+Lossless Compression:
+
+Definition: In lossless compression, no data is lost, and the original data can be perfectly reconstructed from the compressed data.
+Applications: Text files, executables, or data used for archival purposes (e.g., .zip, .gzip).
+Algorithms:
+Huffman Coding: It uses variable-length codes to represent frequent data with shorter codes and rare data with longer codes.
+Run-Length Encoding (RLE): This method represents consecutive repeated data with a single value and a count.
+Lempel–Ziv–Welch (LZW): A dictionary-based compression algorithm often used in file formats like .gif and .png.
+Lossy Compression:
