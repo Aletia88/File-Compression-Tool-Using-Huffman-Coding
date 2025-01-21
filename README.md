@@ -64,3 +64,13 @@ A tree node that is used to represent nodes in the Huffman tree. Each node can e
 - The program assumes the input file has been encoded using a specific Huffman tree structure, which is reconstructed during the decoding process.
 - The program performs decoding bit by bit and writes the decoded characters to the output file when they are found in the decoding map.
 
+## Group Memeber
+| #  | NAME                   | ID            |
+|----|------------------------|---------------|
+| 1  | Michael Tesfaye          | NSR/1678/13   |
+| 2  | Tamagn zewdu             | NSR/2229/13   |
+| 3  | Emmanuel hirpessa        | NSR/868/13   |
+| 4  | Samrawit girma           | NSR/2020/13   |
+| 5  | Yohanes dejene           | NSR/2539/13    |
+
+
